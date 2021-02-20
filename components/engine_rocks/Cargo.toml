@@ -45,7 +45,8 @@ raft = { version = "0.6.0-alpha", default-features = false }
 protobuf = "2"
 
 [dependencies.rocksdb]
-git = "https://github.com/tikv/rust-rocksdb.git"
+git = "https://github.com/YiqinXiong/rust-rocksdb.git"
+branch = "xyq.older"
 package = "rocksdb"
 features = ["encryption", "static_libcpp"]
 
