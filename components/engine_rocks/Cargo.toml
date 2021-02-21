@@ -57,7 +57,7 @@ fail = "0.4"
 
 [dependencies.rocksdb]
 git = "https://github.com/YiqinXiong/rust-rocksdb.git"
-branch = "xyq.older"
+branch = "auto-tune"
 package = "rocksdb"
 features = ["encryption", "static_libcpp"]
 
